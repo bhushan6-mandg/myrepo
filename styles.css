@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+  /* Apply a smooth gradient background from blue to green */
+  background: linear-gradient(to right, #1e3c72, #2a5298, #2ecc71);
+
+  /* Set a modern, readable font */
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  /* Set text color for good contrast */
+  color: white;
+
+  /* Remove default browser spacing */
+  margin: 0;
+  padding: 0;
+
+  /* Use flexbox to center content */
+  display: flex;
+
+  /* Center content horizontally */
+  justify-content: center;
+
+  /* Center content vertically */
+  align-items: center;
+
+  /* Make the body span full viewport height */
+  height: 100vh;
+}
